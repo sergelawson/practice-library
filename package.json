@@ -1,0 +1,19 @@
+{
+  "name": "practice-library",
+  "version": "0.0.1",
+  "description": "A practice npm package learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "pnpm test",
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "author": "Serge Lawson",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.5.6",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0"
+  }
+}
