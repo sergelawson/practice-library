@@ -1,6 +1,6 @@
 {
   "name": "@sergelawson/practice-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A practice npm package learning purpose",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
