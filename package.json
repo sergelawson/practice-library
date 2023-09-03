@@ -1,11 +1,10 @@
 {
-  "name": "@sergio-lawson/practice-library",
+  "name": "@sergelawson/practice-library",
   "version": "0.0.2",
   "description": "A practice npm package learning purpose",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "private": false,
   "scripts": {
     "dev": "vitest",
     "test": "vitest run",
@@ -16,6 +15,7 @@
   },
   "author": "Serge Lawson",
   "license": "ISC",
+  "private": false,
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.5.6",
