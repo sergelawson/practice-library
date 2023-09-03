@@ -14,7 +14,7 @@
     "release": "pnpm run lint && pnpm run test && pnpm run build && changeset publish"
   },
   "author": "Serge Lawson",
-  "license": "ISC",
+  "license": "MIT",
   "private": false,
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
