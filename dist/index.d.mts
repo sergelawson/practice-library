@@ -1,2 +1,5 @@
+declare const hello: {
+    text: string;
+};
 
-export { }
+export { hello as default };
